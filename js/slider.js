@@ -9,7 +9,7 @@
 * http://www.codrops.com
 */
 {
-    const body = document.body;
+    const body = document.querySelector('.layout');
 
     const MathUtils = {
         lineEq: (y2, y1, x2, x1, currentVal) => {
