@@ -42,7 +42,8 @@
     window.addEventListener('resize', calcWinsize);
 
     let mousepos = {x: winsize.width/2, y: winsize.height/2};
-    window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
+//     window.addEventListener('mousemove', ev => mousepos = getMousePos(ev));
+    document.querySelector('.layout').addEventListener('mousemove', ev => mousepos = getMousePos(ev));
 
     // Custom cursor
     class Cursor {
